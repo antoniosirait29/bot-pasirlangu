@@ -1,0 +1,10 @@
+{
+  "intro": "*Pelayanan desa Pasirlangu*\nUntuk pembuatan surat-surat administrasi, silahkan ketik nomor berikut :",
+  "template.menu": "*{{number}}*. *{{menu}}*",
+  "menu.sku": "Surat Keterangan Usaha (SKU)",
+  "menu.wiraswasta": "Surat Keterangan Wiraswasta",
+  "menu.domisili": "Surat Keterangan Domisili",
+  "menu.kelahiran": "Surat Keterangan Pernyataan Kelahiran",
+  "menu.kematian": "Surat Keterangan Pernyataan Kematian",
+  "footer": ""
+}
