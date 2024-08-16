@@ -10,6 +10,8 @@ router.menu(f("menu.domisili"), [BotController, "domisili"]);
 router.menu(f("menu.kelahiran"), [BotController, "kelahiran"]);
 router.menu(f("menu.kematian"), [BotController, "kematian"]);
 router.keyword("Layanan", [BotController, "menu"]);
+router.keyword("selesai", [BotController, "selesai"]);
+router.keyword("test", [BotController, "test"]);
 router.keyword("*", [BotController, "greetings"]);
 
 module.exports = router;
