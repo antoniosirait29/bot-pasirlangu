@@ -7,7 +7,7 @@ const router = new Router();
 const greetingsKeywords = ["/halo/", "/assalamualaikum/", "/selamat/"];
 
 greetingsKeywords.forEach((keyword) => {
-  router.keyword(new RegExp(keyword, "i"), [BotController, "greetings"]);
+  router.keyword(keyword, [BotController, "greetings"]);
 });
 
 router.menu(f("menu.sku"), [BotController, "sku"]);
