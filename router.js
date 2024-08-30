@@ -4,10 +4,10 @@ const f = require("./utils/Formatter");
 
 const router = new Router();
 
-const greetingsKeywords = ["/halo/", "/assalamualaikum/", "/selamat/", ];
+const greetingsKeywords = ["/halo/", "/assalamualaikum/", "/selamat/"];
 
 greetingsKeywords.forEach((keyword) => {
-  router.keyword(keyword, [BotController, "greetings"]);
+  router.keyword(new RegExp(keyword, "i"), [BotController, "greetings"]);
 });
 
 router.menu(f("menu.sku"), [BotController, "sku"]);
