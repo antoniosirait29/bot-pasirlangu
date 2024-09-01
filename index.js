@@ -1,5 +1,6 @@
 require('dotenv').config()
 const Pepesan = require("pepesan");
+const keep_alive=require("./keep_alive.js")
 const router = require("./router");
 const { ALLOWED_NUMBERS } = process.env;
 
