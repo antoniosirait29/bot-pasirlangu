@@ -4,7 +4,7 @@ const f = require("./utils/Formatter");
 
 const router = new Router();
 
-const greetingsKeywords = ["/halo/", "/assalamualaikum/", "/selamat/"];
+const greetingsKeywords = ["/halo/", "/Halo/", "/assalamualaikum/", "/Assalamualaikum/", "/selamat/", "/Selamat/" ];
 
 greetingsKeywords.forEach((keyword) => {
   router.keyword(keyword, [BotController, "greetings"]);
